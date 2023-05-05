@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using repository;
 using Repository;
 
 namespace Utimate_Web_API.ContextFactory
