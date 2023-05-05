@@ -1,0 +1,17 @@
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\bin\Debug\net7.0\repository.deps.json
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\bin\Debug\net7.0\repository.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\bin\Debug\net7.0\repository.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.csproj.AssemblyReference.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.AssemblyInfoInputs.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.AssemblyInfo.cs
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.csproj.CoreCompileInputs.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\refint\repository.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\ref\repository.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\bin\Debug\net7.0\repository.runtimeconfig.json
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.genruntimeconfig.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\bin\Debug\net7.0\Entities.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\bin\Debug\net7.0\Entities.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\Repository\obj\Debug\net7.0\repository.csproj.CopyComplete

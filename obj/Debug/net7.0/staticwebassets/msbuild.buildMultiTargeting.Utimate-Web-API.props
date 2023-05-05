@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Utimate-Web-API.props" />
+</Project>

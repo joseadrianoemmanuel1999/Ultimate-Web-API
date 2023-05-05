@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utimate-Web-API", "Utimate-Web-API.csproj", "{56927C55-E976-490E-BC98-D9F5DB422EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{9A237194-95F6-4765-BA03-A8B4321CE117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{AA4A6516-0CAA-4064-BB11-2258D083D01F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56927C55-E976-490E-BC98-D9F5DB422EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56927C55-E976-490E-BC98-D9F5DB422EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56927C55-E976-490E-BC98-D9F5DB422EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56927C55-E976-490E-BC98-D9F5DB422EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A237194-95F6-4765-BA03-A8B4321CE117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A237194-95F6-4765-BA03-A8B4321CE117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A237194-95F6-4765-BA03-A8B4321CE117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A237194-95F6-4765-BA03-A8B4321CE117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4A6516-0CAA-4064-BB11-2258D083D01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4A6516-0CAA-4064-BB11-2258D083D01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4A6516-0CAA-4064-BB11-2258D083D01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4A6516-0CAA-4064-BB11-2258D083D01F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
