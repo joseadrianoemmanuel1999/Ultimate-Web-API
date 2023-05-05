@@ -1,0 +1,12 @@
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\bin\Debug\net7.0\Service.Contracts.deps.json
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\bin\Debug\net7.0\Service.Contracts.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\bin\Debug\net7.0\Service.Contracts.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.AssemblyReference.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfoInputs.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfo.cs
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll
