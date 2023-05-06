@@ -27,7 +27,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Service.Contracts\\Service.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -92,7 +96,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -367,7 +375,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

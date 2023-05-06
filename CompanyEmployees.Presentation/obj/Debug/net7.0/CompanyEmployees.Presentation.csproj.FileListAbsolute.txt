@@ -10,3 +10,8 @@ C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\De
 C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\refint\CompanyEmployees.Presentation.dll
 C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.pdb
 C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\ref\CompanyEmployees.Presentation.dll
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\Entities.dll
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\Service.Contracts.dll
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\Service.Contracts.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\Entities.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.csproj.CopyComplete

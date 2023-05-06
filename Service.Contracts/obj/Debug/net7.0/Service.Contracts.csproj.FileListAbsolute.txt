@@ -10,3 +10,6 @@ C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\S
 C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
 C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
 C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\bin\Debug\net7.0\Entities.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\bin\Debug\net7.0\Entities.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CopyComplete

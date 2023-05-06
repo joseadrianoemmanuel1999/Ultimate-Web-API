@@ -3675,7 +3675,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Service.Contracts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CompanyEmployees.Presentation.dll": {}
@@ -3687,6 +3688,9 @@
       "Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
         },
@@ -3755,6 +3759,9 @@
       "Service.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Service.Contracts.dll": {}
         },

@@ -1878,13 +1878,17 @@
       "CompanyEmployees.Presentation/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Service.Contracts": "1.0.0"
         },
         "runtime": {
           "CompanyEmployees.Presentation.dll": {}
         }
       },
       "Contracts/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "runtime": {
           "Contracts.dll": {}
         }
@@ -1928,6 +1932,9 @@
         }
       },
       "Service.Contracts/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "runtime": {
           "Service.Contracts.dll": {}
         }
