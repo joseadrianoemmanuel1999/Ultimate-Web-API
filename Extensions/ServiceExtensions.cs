@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contracts;
+using Microsoft.EntityFrameworkCore;
 using Repository;
+using Service;
+using Service.Contracts;
 
 namespace Utimate_Web_API.Extensions
 {
@@ -25,6 +28,12 @@ namespace Utimate_Web_API.Extensions
         });
 public static void ConfigureRepositoryManager(this IServiceCollection services) =>
  services.AddScoped<IRepositoryManager, RepositoryManager>();
+ public static void ConfigureServiceManager(this IServiceCollection services) => 
+ services.AddScoped<IServiceManager, ServiceManager>();
+ public static void ConfigureSqlContext(this IServiceCollection services, 
+IConfiguration configuration) => 
+ services.AddDbContext<RepositoryContext>(opts => 
+  opts.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
 
     }
 }

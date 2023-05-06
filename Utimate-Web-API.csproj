@@ -14,5 +14,6 @@
     <ProjectReference Include="LoggerService\LoggerService.csproj" />
     <ProjectReference Include="Repository\repository.csproj" />
     <ProjectReference Include="Service\Service.csproj" />
+    <ProjectReference Include="CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj" />
   </ItemGroup>
 </Project>

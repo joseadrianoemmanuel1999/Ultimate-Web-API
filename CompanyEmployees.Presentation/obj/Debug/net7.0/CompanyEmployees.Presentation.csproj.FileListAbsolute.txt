@@ -1,0 +1,12 @@
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\CompanyEmployees.Presentation.deps.json
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\CompanyEmployees.Presentation.dll
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\bin\Debug\net7.0\CompanyEmployees.Presentation.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.csproj.AssemblyReference.cache
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.AssemblyInfoInputs.cache
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.AssemblyInfo.cs
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.dll
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\refint\CompanyEmployees.Presentation.dll
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\CompanyEmployees.Presentation.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\CompanyEmployees.Presentation\obj\Debug\net7.0\ref\CompanyEmployees.Presentation.dll

@@ -17,11 +17,16 @@ global using global::System.Threading.Tasks;
 using Microsoft.AspNetCore.HttpOverrides;
 using Utimate_Web_API.Extensions;
 using NLog;
+using CompanyEmployees.Presentation;
 
 var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), 
 "/nlog.config"));
 builder.Services.ConfigureRepositoryManager();
+builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.AddControllers() 
+ .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 // Add services to the container.
 builder.Services.ConfigureCors();
 builder.Services.ConfigurationIISIntegration();
