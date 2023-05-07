@@ -126,3 +126,8 @@ C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Service.dll
 C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Service.pdb
 C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\CompanyEmployees.Presentation.pdb
 C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Service.Contracts.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Shared\bin\Debug\net7.0\Shared.deps.json
+C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Shared\obj\project.assets.json
+C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Shared\obj\Shared.csproj.nuget.dgspec.json
+C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Shared.dll
+C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Shared.pdb

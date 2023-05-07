@@ -16,7 +16,7 @@ public class CompaniesController : ControllerBase
  
  public CompaniesController(IServiceManager service) => _service = service; 
  
- [HttpGet("Get")] 
+ [HttpGet] 
  public IActionResult GetCompanies() 
  { 
   try 
