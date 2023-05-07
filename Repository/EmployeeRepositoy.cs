@@ -14,5 +14,6 @@ namespace Repository
  : base(repositoryContext)
  {
  }
+ 
 }
 }

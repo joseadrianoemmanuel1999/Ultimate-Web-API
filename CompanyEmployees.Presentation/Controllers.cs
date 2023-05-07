@@ -8,7 +8,6 @@ using Service.Contracts;
 namespace CompanyEmployees.Presentation
 {
 
-
  [Route("api/companies")] 
 [ApiController] 
 public class CompaniesController : ControllerBase 
@@ -17,7 +16,7 @@ public class CompaniesController : ControllerBase
  
  public CompaniesController(IServiceManager service) => _service = service; 
  
- [HttpGet] 
+ [HttpGet("Get")] 
  public IActionResult GetCompanies() 
  { 
   try 
