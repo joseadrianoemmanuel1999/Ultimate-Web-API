@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "u/Nfl4kecR0zWWrtNliqR/q2HYyQPtmnJVFhRnjJSILKZvFINrgkEs5FP4mE/zZwYcaFY0JT88EyMqcJSwlg+Q==",
+  "dgSpecHash": "9cRtLQH69ChRd5nrkjsH685P5TnfTi6hzrJDd0ViYAAz8NPMAYNOi1BxuFDy5P0YUZjbG7wyaT4CyVvu0ckAfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Utimate-Web-API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\josea\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -56,7 +58,7 @@
     "C:\\Users\\josea\\.nuget\\packages\\microsoft.codeanalysis.common\\2.8.0\\microsoft.codeanalysis.common.2.8.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\microsoft.codeanalysis.csharp\\2.8.0\\microsoft.codeanalysis.csharp.2.8.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\microsoft.codeanalysis.razor\\2.2.0\\microsoft.codeanalysis.razor.2.2.0.nupkg.sha512",
-    "C:\\Users\\josea\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
