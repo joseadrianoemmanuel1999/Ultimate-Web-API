@@ -20,6 +20,10 @@ using NLog;
 using CompanyEmployees.Presentation;
 using Service; 
 using Service.Contracts;
+using Contratcs;
+using Entities.ErrorModel;
+using Microsoft.AspNetCore.Diagnostics;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
@@ -43,6 +47,11 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
+var logger = app.Services.GetRequiredService<ILoggerManager>(); 
+app.ConfigureExceptionHandler(logger); 
+ 
+if (app.Environment.IsProduction()) 
+ app.UseHsts();
 if (app.Environment.IsDevelopment())
 {
     
