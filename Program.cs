@@ -62,10 +62,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
-app.UseForwardedHeaders(new ForwardedHeadersOptions
-{
-ForwardedHeaders = ForwardedHeaders.All
-});
+ 
 app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
