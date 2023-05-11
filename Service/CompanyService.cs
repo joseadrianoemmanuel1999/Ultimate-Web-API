@@ -8,6 +8,7 @@ using Service.Contracts;
 using Entities;
 using Shared.DataTransferObjects;
 using AutoMapper;
+using Entities.Exceptions;
 
 namespace Service
 {
@@ -43,6 +44,8 @@ public IEnumerable<CompanyDto> GetAllCompanies(bool trackChanges)
 { 
  var company = _repository.Company.GetCompany(id, trackChanges); 
  //Check if the company is null  
+ if (company is null) 
+  throw new CompanyNotFoundException(id);
  
  var companyDto = _mapper.Map<CompanyDto>(company); 
  return companyDto;

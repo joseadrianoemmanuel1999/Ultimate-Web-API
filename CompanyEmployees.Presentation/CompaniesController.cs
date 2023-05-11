@@ -15,10 +15,11 @@ namespace CompanyEmployees.Presentation
         private readonly IServiceManager _service; 
  
  public CompaniesController(IServiceManager service) => _service = service; 
- [HttpGet("get")] 
+ [HttpGet] 
 public IActionResult GetCompanies() 
 { 
- throw new Exception("Exception"); 
+
+ 
  var companies = _service.CompanyService.GetAllCompanies(trackChanges: false); 
  
  return Ok(companies); 
