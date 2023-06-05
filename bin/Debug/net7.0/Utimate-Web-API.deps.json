@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
           "Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
+          "System.Net.Http": "4.0.0",
           "repository": "1.0.0"
         },
         "runtime": {
@@ -620,6 +621,7 @@
           }
         }
       },
+      "System.Net.Http/4.0.0": {},
       "System.Numerics.Vectors/4.5.0": {},
       "System.Reflection/4.3.0": {
         "dependencies": {
@@ -1264,6 +1266,13 @@
       "sha512": "sha512-JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
       "path": "system.memory.data/1.0.2",
       "hashPath": "system.memory.data.1.0.2.nupkg.sha512"
+    },
+    "System.Net.Http/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mZuAl7jw/mFY8jUq4ITKECxVBh9a8SJt9BC/+lJbmo7cRKspxE3PsITz+KiaCEsexN5WYPzwBOx0oJH/0HlPyQ==",
+      "path": "system.net.http/4.0.0",
+      "hashPath": "system.net.http.4.0.0.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
