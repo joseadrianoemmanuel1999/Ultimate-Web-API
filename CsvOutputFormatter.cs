@@ -12,10 +12,10 @@ namespace Utimate_Web_API
 {
     public class CsvOutputFormatter:  TextOutputFormatter
     {
+       
         public CsvOutputFormatter() 
     {
-        SupportedMediaTypes.Add(MediaTypeHeaderValue.Parse("text/csv"));
-        SupportedEncodings.Add(Encoding.UTF8); 
+          SupportedEncodings.Add(Encoding.UTF8); 
         SupportedEncodings.Add(Encoding.Unicode); 
     } 
  
