@@ -12,6 +12,8 @@ IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges) ;
  Company GetCompany(Guid companyId, bool trackChanges);
  void CreateCompany(Company company);
         object GetAllCompanies(bool trackChanges);
+        void DeleteCompany(Company company);
+
         
     }
    public interface IEmployeeRepository

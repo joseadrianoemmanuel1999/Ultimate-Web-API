@@ -20,6 +20,8 @@ namespace Utimate_Web_API
            CreateMap<Employee, EmployeeDto>();
            CreateMap<CompanyForCreationDto, Company>();
            CreateMap<EmployeeForCreationDto, Employee>();
+           CreateMap<EmployeeForUpdateDto, Employee>();
+
 
         }
         

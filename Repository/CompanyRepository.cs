@@ -27,5 +27,7 @@ public void CreateCompany(Company company) => Create(company);
         {
             throw new NotImplementedException();
         }
+        public void DeleteCompany(Company company) => Delete(company);
+
     }
 }
