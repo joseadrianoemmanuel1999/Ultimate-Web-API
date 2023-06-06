@@ -21,6 +21,8 @@ namespace Utimate_Web_API
            CreateMap<CompanyForCreationDto, Company>();
            CreateMap<EmployeeForCreationDto, Employee>();
            CreateMap<EmployeeForUpdateDto, Employee>();
+           CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
+
 
 
         }
