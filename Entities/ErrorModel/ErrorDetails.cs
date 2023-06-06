@@ -12,4 +12,5 @@ namespace Entities.ErrorModel
  
   public override string ToString() => JsonSerializer.Serialize(this);
     }
+    
 }
