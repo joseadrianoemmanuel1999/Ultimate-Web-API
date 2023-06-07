@@ -37,6 +37,8 @@ public IActionResult CreateCompany([FromBody] CompanyForCreationDto company)
 if (company is null)
 return BadRequest("CompanyForCreationDto object is null");
 var createdCompany = _service.CompanyService.CreateCompany(company);
+if (!ModelState.IsValid)
+return UnprocessableEntity(ModelState);
 return CreatedAtRoute("CompanyById", new { id = createdCompany.Id }, 
 createdCompany);
 }
