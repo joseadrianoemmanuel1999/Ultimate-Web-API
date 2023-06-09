@@ -6,21 +6,21 @@ using Contracts;
 using Entities;
 namespace Contracts
 {
-   public interface ICompanyRepository
-{
-IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges) ;
- Company GetCompany(Guid companyId, bool trackChanges);
- void CreateCompany(Company company);
-       IEnumerable<Company> GetAllCompanies(bool trackChanges);
+    public interface ICompanyRepository
+    {
+        Task<IEnumerable<Company>> GetAllCompaniesAsync(bool trackChanges);
+        Task<Company> GetCompanyAsync(Guid companyId, bool trackChanges);
+        void CreateCompany(Company company);
+        Task<IEnumerable<Company>> GetByIdsAsync(IEnumerable<Guid> ids, bool trackChanges);
         void DeleteCompany(Company company);
 
-        
+
     }
-   public interface IEmployeeRepository
- {
-    IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges);
-    Employee GetEmployee(Guid companyId, Guid id, bool trackChanges);
-    void CreateEmployeeForCompany(Guid companyId, Employee employee);
-    void DeleteEmployee(Employee employee);
- }
+    public interface IEmployeeRepository
+    {
+      Task  <IEnumerable<Employee>> GetEmployees(Guid companyId, bool trackChanges);
+       Task <Employee> GetEmployee(Guid companyId, Guid id, bool trackChanges);
+        void CreateEmployeeForCompany(Guid companyId, Employee employee);
+        void DeleteEmployee(Employee employee);
+    }
 }

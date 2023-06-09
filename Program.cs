@@ -27,6 +27,7 @@ using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
+using Utimate_Web_API.ActionFilters;
 
 var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
@@ -39,9 +40,11 @@ builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<ValidationFilterAttribute>();
  builder.Services.AddControllers(config => { 
  config.RespectBrowserAcceptHeader = true;
  config.ReturnHttpNotAcceptable = true; 
+ 
  config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 
 }).AddXmlDataContractSerializerFormatters()
@@ -51,6 +54,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 {
 options.SuppressModelStateInvalidFilter = true;
 });
+
 NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
 new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
 .Services.BuildServiceProvider()
