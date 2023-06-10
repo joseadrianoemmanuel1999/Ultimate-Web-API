@@ -13,3 +13,5 @@ C:\Users\josea\source\repos\Utimate-Web-API\Contracts\obj\Debug\net7.0\ref\Contr
 C:\Users\josea\source\repos\Utimate-Web-API\Contracts\bin\Debug\net7.0\Entities.dll
 C:\Users\josea\source\repos\Utimate-Web-API\Contracts\bin\Debug\net7.0\Entities.pdb
 C:\Users\josea\source\repos\Utimate-Web-API\Contracts\obj\Debug\net7.0\Contracts.csproj.CopyComplete
+C:\Users\josea\source\repos\Utimate-Web-API\Contracts\bin\Debug\net7.0\Shared.dll
+C:\Users\josea\source\repos\Utimate-Web-API\Contracts\bin\Debug\net7.0\Shared.pdb

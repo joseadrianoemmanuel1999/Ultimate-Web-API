@@ -15,3 +15,5 @@ C:\Users\josea\source\repos\Utimate-Web-API\LoggerService\obj\Debug\net7.0\Logge
 C:\Users\josea\source\repos\Utimate-Web-API\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll
 C:\Users\josea\source\repos\Utimate-Web-API\LoggerService\bin\Debug\net7.0\Entities.dll
 C:\Users\josea\source\repos\Utimate-Web-API\LoggerService\bin\Debug\net7.0\Entities.pdb
+C:\Users\josea\source\repos\Utimate-Web-API\LoggerService\bin\Debug\net7.0\Shared.dll
+C:\Users\josea\source\repos\Utimate-Web-API\LoggerService\bin\Debug\net7.0\Shared.pdb
