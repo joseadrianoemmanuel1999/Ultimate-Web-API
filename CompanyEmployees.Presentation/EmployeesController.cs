@@ -51,13 +51,8 @@ namespace CompanyEmployees.Presentation
             var employeeToReturn = await
             _service.EmployeeService.CreateEmployeeForCompany(companyId, employee,
             trackChanges: false);
-            return CreatedAtRoute("GetEmployeeForCompany", new
-            {
-                companyId,
-                id =
-            employeeToReturn.Id
-            },
-            employeeToReturn);
+            
+            return Ok("sucess");
 
         }
         [HttpDelete("{id:guid}")]
