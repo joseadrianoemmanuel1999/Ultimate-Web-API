@@ -3,8 +3,9 @@
     "",
     "\\Entities",
     "\\Properties",
-    "\\Repository"
+    "\\Repository",
+    "\\Repository\\Extensions"
   ],
-  "SelectedNode": "\\Utimate-Web-API.sln",
+  "SelectedNode": "\\Utimate-Web-API.csproj",
   "PreviewInSolutionExplorer": false
 }

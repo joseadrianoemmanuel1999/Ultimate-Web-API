@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HW6W/vkTwseNBUo2yhBRnS8PHnGigOH2j4XS+1g+ydnomXhvKy0UkLSHpkz8cg7MasystjCwTz1GzJbLl2/6ag==",
+  "dgSpecHash": "hEItAR1+Gjp256fUO45IuaTS2xpwTBGK37hEMrxU6B4k75G+HEydO7T5G7lC9hfg+S2McdFkGZCRsRx3dchJvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\josea\\source\\repos\\Utimate-Web-API\\Repository\\repository.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\josea\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.21.0\\system.identitymodel.tokens.jwt.6.21.0.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\system.linq.dynamic.core\\1.3.2\\system.linq.dynamic.core.1.3.2.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\josea\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

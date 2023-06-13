@@ -127,3 +127,4 @@ C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Microsoft.AspNetCor
 C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\josea\source\repos\Utimate-Web-API\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
