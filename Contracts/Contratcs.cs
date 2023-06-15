@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Contracts;
 using Entities;
 using Shared.RequestFeatures;
+using Shared.DataTransferObjects;
+using Microsoft.AspNetCore.Http;
 
 namespace Contracts
 {
@@ -27,4 +24,15 @@ EmployeeParameters employeeParameters, bool trackChanges);
         void CreateEmployeeForCompany(Guid companyId, Employee employee);
         void DeleteEmployee(Employee employee);
      }
+     public interface IDataShaper<T>
+{
+IEnumerable<ShapedEntity> ShapeData(IEnumerable<T> entities, string
+fieldsString);
+ShapedEntity ShapeData(T entity, string fieldsString);
+}
+     public interface IEmployeeLinks
+{
+LinkResponse TryGenerateLinks(IEnumerable<EmployeeDto> employeesDto,
+string fields, Guid companyId, HttpContext httpContext);
+}
 }

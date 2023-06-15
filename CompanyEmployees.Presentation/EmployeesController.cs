@@ -9,7 +9,9 @@ using Service;
 using Shared.RequestFeatures;
 using Shared.DataTransferObjects;
 using Utimate_Web_API.ActionFilters;
+using Microsoft.AspNetCore.Http;
 using System.Text.Json;
+using Entities.Linkmodels;
 
 namespace CompanyEmployees.Presentation
 {
@@ -23,16 +25,17 @@ namespace CompanyEmployees.Presentation
         public EmployeesController(IServiceManager service) => _service = service;
 
         [HttpGet]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetEmployeesForCompany(Guid companyId,
-[FromQuery] EmployeeParameters employeeParameters)
+ [FromQuery] EmployeeParameters employeeParameters)
         {
-            var pagedResult = await _service.EmployeeService.GetEmployeesAsync(companyId,
-            employeeParameters, trackChanges: false);
-            Response.Headers.Add("X-Pagination",
-            JsonSerializer.Serialize(pagedResult.metaData));
-            return Ok(pagedResult.employees);
-        }
+            var linkParams = new LinkParameters(employeeParameters, HttpContext);
+            var result = await _service.EmployeeService.GetEmployeesAsync(companyId,linkParams, trackChanges: false);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(result.metaData));
+            return result.linkResponse.HasLinks ? Ok(result.linkResponse.LinkedEntities) :
+            Ok(result.linkResponse.ShapedEntities);
 
+        }
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetEmployeeForCompany(Guid companyId, Guid id)
         {
@@ -51,7 +54,7 @@ namespace CompanyEmployees.Presentation
             var employeeToReturn = await
             _service.EmployeeService.CreateEmployeeForCompany(companyId, employee,
             trackChanges: false);
-            
+
             return Ok("sucess");
 
         }

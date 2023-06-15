@@ -10,7 +10,6 @@ global using global::System;
 global using global::System.Collections.Generic;
 global using global::System.IO;
 global using global::System.Linq;
-global using global::System.Net.Http;
 global using global::System.Net.Http.Json;
 global using global::System.Threading;
 global using global::System.Threading.Tasks;
@@ -23,11 +22,13 @@ using Service.Contracts;
 using Contratcs;
 using Entities.ErrorModel;
 using Microsoft.AspNetCore.Diagnostics;
-using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using Utimate_Web_API.ActionFilters;
+using Contracts;
+using Shared.DataTransferObjects;
+using Utimate_Web_API.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
@@ -55,6 +56,7 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 options.SuppressModelStateInvalidFilter = true;
 });
 
+
 NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
 new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
 .Services.BuildServiceProvider()
@@ -64,6 +66,11 @@ new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
+
 
 var app = builder.Build();
 
